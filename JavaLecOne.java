@@ -26,6 +26,7 @@ public class JavaLecOne{
         double myDouble = 3.123745475; //Stores fractions up to 15 digits
         boolean myBool = true; //stires TRue or FALSE
         char myChar = 'c'; //stores single char/letter or ASCII value
+        int woh = 1337;
 
         // THESE ARE - WRAPPER CLASSES or REFERECNE TYPES
         Integer myInteger = 10000; //Object of the variable we declared
