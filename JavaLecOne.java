@@ -27,6 +27,7 @@ public class JavaLecOne{
         boolean myBool = true; //stires TRue or FALSE
         char myChar = 'c'; //stores single char/letter or ASCII value
         int woh = 1337;
+        int woh2 = 1331;
 
         // THESE ARE - WRAPPER CLASSES or REFERECNE TYPES
         Integer myInteger = 10000; //Object of the variable we declared
