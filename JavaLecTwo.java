@@ -114,20 +114,20 @@ for(HashMap.Entry<String, String> entry : ourHobbies.entrySet())
 
 // TEST 
 
-HashMap<String, String> trippleHashExp = new HashMap<String, String>();
-trippleHashExp.put("Matthew","Photography");
-trippleHashExp.put("Travis","Painting");
-trippleHashExp.put("Sarah","Gold Panning");
-trippleHashExp.put("Eddie","Cow Tipping");
-trippleHashExp.put("Willie","PWNING noobs");
-trippleHashExp.put("Nathan","Drawing");
-trippleHashExp.put("Tray","Rage Quitting");
-trippleHashExp.put("Sean","SC2");
-trippleHashExp.put("Ross","Golf");
-trippleHashExp.put("Kevin","Being Awesome");
+HashMap<String, Integer> trippleHashExp = new HashMap<String, Integer>();
+trippleHashExp.put("Matthew",31);
+trippleHashExp.put("Travis",999);
+trippleHashExp.put("Sarah", 22);
+trippleHashExp.put("Eddie", 11);
+trippleHashExp.put("Willie", 32);
+trippleHashExp.put("Nathan", 67);
+trippleHashExp.put("Tray", 53);
+trippleHashExp.put("Sean", 34);
+trippleHashExp.put("Ross", 22);
+trippleHashExp.put("Kevin", 39);
 System.out.println("");
 System.out.println("");
-System.out.println("Tray's hobby:");
+System.out.println("Tray's age:");
 System.out.println(trippleHashExp.get("Tray"));
 System.out.println("");
 System.out.println("");
@@ -135,12 +135,12 @@ System.out.println(trippleHashExp);   // COMES FROM COLLECTION SUPERCLASS!  so y
 
 System.out.println("");
 System.out.println("");
-System.out.println("EXPERIMENT - Entered Keys and Values and int ADD:");
+System.out.println("EXPERIMENT - Entered Keys: Names and Value: Ages");
 System.out.println("");
-for(HashMap.Entry<String, String> entry : trippleHashExp.entrySet())
+for(HashMap.Entry<String, Integer> entry : trippleHashExp.entrySet())
 {
     
-    System.out.println("Key = " + entry.getKey() + "Value = " + entry.getValue());  //list EM ALL
+    System.out.println("Key NAME = " + entry.getKey() + "   Value AGE = " + entry.getValue());  //list EM ALL
     
 }
     System.out.println("");
