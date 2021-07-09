@@ -99,9 +99,9 @@ ourHobbies.put("Tray","Rage Quitting");
 ourHobbies.put("Sean","SC2");
 ourHobbies.put("Ross","Golf");
 ourHobbies.put("Kevin","Being Awesome");
-
 System.out.println("");
 System.out.println("");
+System.out.println("Travis' hobby:");
 System.out.println(ourHobbies.get("Travis"));
 System.out.println("");
 System.out.println("");
@@ -112,31 +112,69 @@ for(HashMap.Entry<String, String> entry : ourHobbies.entrySet())
     System.out.println("Key = " + entry.getKey() + "Value = " + entry.getValue());  //list EM ALL
 }
 
+// TEST 
+
+HashMap<String, String> trippleHashExp = new HashMap<String, String>();
+trippleHashExp.put("Matthew","Photography");
+trippleHashExp.put("Travis","Painting");
+trippleHashExp.put("Sarah","Gold Panning");
+trippleHashExp.put("Eddie","Cow Tipping");
+trippleHashExp.put("Willie","PWNING noobs");
+trippleHashExp.put("Nathan","Drawing");
+trippleHashExp.put("Tray","Rage Quitting");
+trippleHashExp.put("Sean","SC2");
+trippleHashExp.put("Ross","Golf");
+trippleHashExp.put("Kevin","Being Awesome");
+System.out.println("");
+System.out.println("");
+System.out.println("Tray's hobby:");
+System.out.println(trippleHashExp.get("Tray"));
+System.out.println("");
+System.out.println("");
+System.out.println(trippleHashExp);   // COMES FROM COLLECTION SUPERCLASS!  so you get data!  not memory slot  //NOT IN ORDER
+
+for(HashMap.Entry<String, String> entry : trippleHashExp.entrySet())
+{
+    System.out.println("");
+    System.out.println("");
+    System.out.println("Travis' hobby:");
+    System.out.println("Key = " + entry.getKey() + "Value = " + entry.getValue());  //list EM ALL
+    System.out.println("");
+    System.out.println("");
+    System.out.println(" * * END OF HASH MAP 3 VAL TEST * * ");
+}
 
     }
 
         // DONT DO THIS :P
         // ADD A TRY CATCH TO FIX IT
-        public static int maxArrayValue(int[] nums)
+        // public static int maxArrayValue(int[] nums)  // ORG SETUP
+        // find max in array...
+        public static void maxArrayValue(int[] nums)
         {
-            int greatNumber = nums[0];
+            int biggestCoolNumber = nums[0];
             for(int i = 0; i < nums.length; i++)
             {
                 try
                 {
-                    if(highNum < nums[i])
+                    if(biggestCoolNumber < nums[i])
                     {
-                        highNum = nums[i];
+                        biggestCoolNumber = nums[i];
                     }
                 }
                 catch
-                {
                 (IndexOutOfBoundsException e)
-                    {
+                {
+                    
                         System.out.println(e);
-                    }
+    
                 }  // OR JUST TYPE EXCEPTION
             }
-            return highNum;
+            // return biggestCoolNumber;
+            System.out.println("");
+            System.out.println("");
+            System.out.println(biggestCoolNumber);
+            System.out.println("");
+            System.out.println("");
         }
 }
