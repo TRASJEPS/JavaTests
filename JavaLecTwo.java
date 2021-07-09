@@ -133,16 +133,20 @@ System.out.println("");
 System.out.println("");
 System.out.println(trippleHashExp);   // COMES FROM COLLECTION SUPERCLASS!  so you get data!  not memory slot  //NOT IN ORDER
 
+System.out.println("");
+System.out.println("");
+System.out.println("EXPERIMENT - Entered Keys and Values and int ADD:");
+System.out.println("");
 for(HashMap.Entry<String, String> entry : trippleHashExp.entrySet())
 {
-    System.out.println("");
-    System.out.println("");
-    System.out.println("Travis' hobby:");
+    
     System.out.println("Key = " + entry.getKey() + "Value = " + entry.getValue());  //list EM ALL
-    System.out.println("");
+    
+}
     System.out.println("");
     System.out.println(" * * END OF HASH MAP 3 VAL TEST * * ");
-}
+    System.out.println("");
+
 
     }
 
