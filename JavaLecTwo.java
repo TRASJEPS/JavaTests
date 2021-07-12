@@ -112,8 +112,7 @@ for(HashMap.Entry<String, String> entry : ourHobbies.entrySet())
     System.out.println("Key = " + entry.getKey() + "Value = " + entry.getValue());  //list EM ALL
 }
 
-// TEST 
-
+// TEST  String and int BuT IT MUST BE Integer
 HashMap<String, Integer> trippleHashExp = new HashMap<String, Integer>();
 trippleHashExp.put("Matthew",31);
 trippleHashExp.put("Travis",999);
@@ -144,8 +143,43 @@ for(HashMap.Entry<String, Integer> entry : trippleHashExp.entrySet())
     
 }
     System.out.println("");
-    System.out.println(" * * END OF HASH MAP 3 VAL TEST * * ");
+    System.out.println(" * * END OF HASH MAP 2 VAL TEST * * ");
     System.out.println("");
+
+// TEST  String and TUPLE try combining with other elements
+// HashMap<String, Tuple<Integer, String>> tupleHashMap = new HashMap<String, Tuple<Integer, String>>();
+// //
+// tupleHashMap.put("Matthew",31);
+// tupleHashMap.put("Travis",999);
+// tupleHashMap.put("Sarah", 22);
+// tupleHashMap.put("Eddie", 11);
+// tupleHashMap.put("Willie", 32);
+// tupleHashMap.put("Nathan", 67);
+// tupleHashMap.put("Tray", 53);
+// tupleHashMap.put("Sean", 34);
+// tupleHashMap.put("Ross", 22);
+// tupleHashMap.put("Kevin", 39);
+// System.out.println("");
+// System.out.println("");
+// System.out.println("Tray's age:");
+// System.out.println(tupleHashMap.get("Tray"));
+// System.out.println("");
+// System.out.println("");
+// System.out.println(tupleHashMap);   // COMES FROM COLLECTION SUPERCLASS!  so you get data!  not memory slot  //NOT IN ORDER
+
+// System.out.println("");
+// System.out.println("");
+// System.out.println("EXPERIMENT - Entered Keys: Names and Value: Ages");
+// System.out.println("");
+// for(HashMap.Entry<String, Integer> entry : trippleHashExp.entrySet())
+// {
+    
+//     System.out.println("Key NAME = " + entry.getKey() + "   Value AGE = " + entry.getValue());  //list EM ALL
+    
+// }
+//     System.out.println("");
+//     System.out.println(" * * END OF HASH MAP 3 VAL TEST * * ");
+//     System.out.println("");
 
 
     }
