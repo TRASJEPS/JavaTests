@@ -1,6 +1,8 @@
 
 // TRAVIS JEPSON 2021 JAVA
 
+//  This covers basic syntax and other key variables
+
 // new Car f150 = 1996 Ford F-150;
 // f150.Honk, f150.Drive, f150.Break;
 // everything is an object that decends from the class
@@ -10,10 +12,24 @@
 // ALWAYS INCLUDE THESE INITIAL 2 LINES
 
 // CHECK FOR THE JAVA EXTENSION PACK
+//
+// classes should be UPPER CASE starting letters
+// this MUST MATCH the file name EXACTLY Pascal case 
 public class JavaLecOne{
+    //
+    // this is a METHOD name and all METHOD names should start off lower case.
     public static void main(String[] args) {
+        // THIS MAIN METHOD IS CALLED ** void becuase it does not return anything  **
+        // if you were to add a ** return string ** before the last curly brace at end
+        // then you would call public static string
+
+        // public: This is known as an access modifier. Any public method we write is accessible from any other class or method in our project.
+        // static:  means that the method belongs to and is called from the class itself rather than from an instance of the class.
+        // void: indicates that the main() method doesn't return anything.
 
         System.out.println("EYYY its the world ova here!");
+
+        int emptyInt;   //DOES NOT NEED VALUE.
 
         // THESE ARE DATA TYPE - PRIMITIVES
         // VARIABLE identifiers, cannot start with a digit
@@ -25,7 +41,7 @@ public class JavaLecOne{
         float myFloat = 3.14f; //stores numbers up to 6 to 7 decimil digits
         double myDouble = 3.123745475; //Stores fractions up to 15 digits
         boolean myBool = true; //stires TRue or FALSE
-        char myChar = 'c'; //stores single char/letter or ASCII value
+        char myChar = 'c'; //stores single char/letter or ASCII value basically a single character of any type like a string but limited to 1 character
         int woh = 1337;
         int woh2 = 1331;
 
@@ -45,6 +61,17 @@ public class JavaLecOne{
         String bootCamp = "Gona Give";
         String bootCAMP = "You Up";
         System.out.println(bootcamp + bootCamp + bootCAMP);
+
+        // Integer: The Integer class wraps a value of the primitive type int into an object.
+        // Long: The Long class wraps a value of the primitive type long in an object.
+        // Boolean: The Boolean class wraps a value of the primitive type boolean in an object.
+        // Double: The Double class wraps a value of the primitive type double in an object.
+        // Character: The Character class wraps a value of the primitive type char in an object.
+        // String: Represents a sequence of characters, like a Python string.
+        // BigInteger: Represents an integer that can be any size at all.
+        
+        // Notice that primitive types are lowercase, while object types are capitalized.
+
 
         // OPERATORS AND CONDITIONALS
         int theNumberChecked = 5;
@@ -76,9 +103,10 @@ public class JavaLecOne{
         System.out.println(sayHelloWithName("BILLY!!"));
     }
         //METHODS - DONT NEED a semi after the {}
+        // shouldnt this be public static string?!!?
         public static void sayHello()
         {
-            System.out.println("Hello!");
+            System.out.println("Hello!");a
         }
         public static String sayHelloWithName( String name)
         {
