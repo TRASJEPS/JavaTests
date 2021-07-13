@@ -11,6 +11,10 @@ public class FileReceivingImportDateClass {
 
        ImportDateTest varDate = new ImportDateTest();
        String getCurrentDate = varDate.getCurrentDate();
+       System.out.println();
+       System.out.println();
        System.out.println(getCurrentDate);
+       System.out.println();
+       System.out.println();
     }
 }
