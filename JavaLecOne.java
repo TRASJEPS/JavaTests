@@ -45,6 +45,13 @@ public class JavaLecOne{
         int woh = 1337;
         int woh2 = 1331;
 
+        // when casting or assigning to VARIABLES you can cast a smaller value into a larger one or convert a larger value into a smaller one
+        // EXPLICITLY CASTING ^
+
+        // you can Implicitly cast an into to a float! int i = 34; float f = i;  f = 34.0
+
+
+
         // THESE ARE - WRAPPER CLASSES or REFERECNE TYPES
         Integer myInteger = 10000; //Object of the variable we declared
         Character myCharacter = 'q';
@@ -70,8 +77,60 @@ public class JavaLecOne{
         // String: Represents a sequence of characters, like a Python string.
         // BigInteger: Represents an integer that can be any size at all.
         
+        //
+        // * * * * * 
+        //THIS IS SUPER IMPORTANT - - - -
+        // * * * * *
+        //
         // Notice that primitive types are lowercase, while object types are capitalized.
+        
+        // Integer is an object type instance of the class 
+        // public static void main(String[] args) {
+        //     long start = System.currentTimeMillis();
+        //     Integer sum = 0;
+        //     for (int i = 0; i < Integer.MAX_VALUE; i++) {
+        //         sum += i;
+        //     }
+        //     System.out.println("Sum: " + sum);
+        //     long end = System.currentTimeMillis();
+        //     double total = (double) (end - start) / 1000;
+        //     System.out.println("Time of execution: " + total + " seconds");
+        // // }
+        // RETURNS THIS
+        // Sum: 1073741825
+        // Time of execution: 6.477 seconds
 
+        // public static void main(String[] args) {
+        //     long start = System.currentTimeMillis();
+        //     int sum = 0;
+        //     for (int i = 0; i < Integer.MAX_VALUE; i++) {
+        //         sum += i;
+        //     }
+        //     System.out.println("Sum: " + sum);
+        //     long end = System.currentTimeMillis();
+        //     double total = (double) (end - start) / 1000;
+        //     System.out.println("Time of execution: " + total + " seconds");
+        // }
+            // RETURN THIS 
+        // Sum: 1073741825
+        // Time of execution: 0.763 seconds    
+
+        // null values: Primitive data types can only hold data.   CANNOT BE EMPTY
+        // However, Object types are pointers to where the data is stored. 
+        // This means that this pointer can point to nothing (null), while primitive types cannot.
+
+        // public class TestNull {
+        //     public static void main(String[] args) {
+        //         Integer a = 10;
+        //         int b = 10;
+        //         a = null;
+        //         b = null;
+        //     }
+        // }
+
+
+
+        
 
         // OPERATORS AND CONDITIONALS
         int theNumberChecked = 5;
