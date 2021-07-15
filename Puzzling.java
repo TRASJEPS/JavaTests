@@ -1,4 +1,8 @@
 // TRAVIS JEPSON 2021 JAVA
+//
+//  Puzzling Assignment
+//
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Random;

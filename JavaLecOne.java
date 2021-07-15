@@ -69,6 +69,25 @@ public class JavaLecOne{
         String bootCAMP = "You Up";
         System.out.println(bootcamp + bootCamp + bootCAMP);
 
+        // This is a cool way to format it
+        String ninja = String.format("Hi %s, you owe me $%.2f !", "Jack", 25.0);
+        System.out.println(ninja);
+        // Will print out Hi Jack, you owe me $25.00 !
+        // Where %s is expecting a string
+        // And %.2f is expecting a float data type. The value 2 will just place two values to right of the decimal point.
+
+        // THis shows the index position of the string
+        String ninja = "Welcome to Coding Dojo!";
+        int a = ninja.indexOf("Coding"); // a is 11
+        int b = ninja.indexOf("co"); // b is 3
+        int c = ninja.indexOf("pizza"); // c is -1, "pizza" is not found
+
+        // COMPARE EQUALITY!!  remember the CHARACTERS vs the OBJECT itself
+        String a = new String("word");
+        String b = new String("word");
+        System.out.println(a == b); // false. not the same exact object.
+        System.out.println(a.equals(b)); // true. same exact characters.
+
         // Integer: The Integer class wraps a value of the primitive type int into an object.
         // Long: The Long class wraps a value of the primitive type long in an object.
         // Boolean: The Boolean class wraps a value of the primitive type boolean in an object.
@@ -154,6 +173,18 @@ public class JavaLecOne{
         {
             System.out.println(i);
         }
+
+        // other examples 
+        boolean defenderGuarding = true;
+        boolean closeToBasket = true;
+        if(defenderGuarding == true) {
+            System.out.println("Pass The Ball");
+        } else if(closeToBasket == true) {
+            System.out.println("Shoot The Ball");
+        } else {
+            System.out.println("Dribble The Ball");
+}
+
 
         // ***    METHODS branches off from the main method?   ***
         // THEY EXIST OUTSIDE OF MAIN METHOD {}
