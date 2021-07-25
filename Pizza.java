@@ -2,7 +2,8 @@ import java.util.Arrays;
 
 public class Pizza{
     
-    // Access modifiers
+    // Access modifiers - public- private
+    // THESE ARE DEFAULT BLANK ATTRIBUTES
     public String name;
     public String[] toppings;
     public int slices;  // add later!
@@ -27,6 +28,7 @@ public Pizza(String name, String[] toppings, double price, int slices, boolean d
         //  THIS IS ALL FILLED, BUT IN THIS CASE IF A PARAMETER IS NOT MET it autofilles to OVERLOAD, see below
     }
 
+    // THIS IS WHEN ITS BLANK
 // METHOD OVERLOADING THIS DUPLICATES - THIS WILL HELP FILTER BASED ON WAHT THEY ENTER
 // THIS WILL CREASTE A DEFAULT //  
 // most common is to overload the constructor
